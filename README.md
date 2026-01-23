@@ -9,20 +9,18 @@ Scripts are grouped by Azure service for better organization and maintainability
 
 ## Repository Structure
 
-.
+```
 ├── appservice/
-│ ├── list-path-mounts.sh
-│ ├── list-outbound-ips.sh
-│ └── update-env-from-keyvault.sh
-│
+│   ├── list-path-mounts.sh
+│   ├── list-outbound-ips.sh
+│   └── update-env-from-keyvault.sh
 ├── keyvault/
-│ ├── upload-appservice-secrets.sh
-│ └── migrate-keyvault-secrets.sh
-│
+│   ├── upload-appservice-secrets.sh
+│   └── migrate-keyvault-secrets.sh
 ├── azure-devops/
-│ └── update-release-agentpool.sh
-│
+│   └── update-release-agentpool.sh
 └── README.md
+```
 
 
 > **Note:** Script names above are representative. Actual filenames may vary.
