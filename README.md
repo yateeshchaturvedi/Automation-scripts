@@ -19,6 +19,8 @@ Scripts are grouped by Azure service for better organization and maintainability
 │   └── migrate-keyvault-secrets.sh
 ├── azure-devops/
 │   └── update-release-agentpool.sh
+├── storage-account/
+│   └── remove-files-from-fileshare-of-specific-extension.sh
 └── README.md
 ```
 
@@ -85,6 +87,20 @@ This directory contains scripts for **Azure DevOps** automation.
   - Standardizing agent pools
   - Migrating from hosted to self-hosted agents
   - Infrastructure modernization
+
+---
+
+## Storage account/
+
+This directory contains scripts for **Storage account** management.
+
+### Remove specific file extensions from Azure file shares
+- Extracts list of file share from storage account.
+- List the files from file share
+- Delete files with extensions set in script
+- Useful for:
+  - removing deprecated/useless files
+  - List the files from storage account
 
 ---
 
